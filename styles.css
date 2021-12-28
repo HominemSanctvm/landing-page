@@ -45,7 +45,7 @@ header {
 #hero {
 	display: flex;
 	align-items: center;
-	height: 400px;
+	height: 480px;
 }
 
 #hero-elements {
@@ -53,7 +53,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	width: 75%;
-	height: 75%;
+	height: 50%;
 	margin: 0 auto;
 }
 
@@ -82,7 +82,7 @@ header {
 
 #hero-image {
 	width: 100%;
-	max-height: 100%;
+	height: 100%;
 }
 
 #btn-signup {
@@ -134,15 +134,32 @@ header {
 }
 
 #quote-section {
-/*	padding-top: 96px;
-	padding-bottom: 96px; */
-	margin-top: 0;
+	display: flex;
+	justify-content: center;
+	padding-top: 96px;
+	padding-bottom: 96px; 
 	background-color: #E5E7EB;
 }
 
 #quote-paragraph {
+	width: 60%;
 	font-size: 36px;
+	text-align: right;
 	font-weight: 300;
 	font-style: italic;
 	color: #1F2937;
+}
+
+#callToAction-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+
+#callToAction-blue-div {
+	background-color: #3882F6;
+	width: 75%;
 }
